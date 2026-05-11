@@ -1,0 +1,70 @@
+Convierte coordenadas en pixeles a coordenadas relativas en la imagen de la acta
+---
+parameters:
+  - name: body
+    in: body
+    required: true
+    schema:
+      $ref: "#/definitions/RequestBody"
+definitions:
+  Area:
+    type: object
+    properties:
+      name:
+        type: string
+      topLeft:
+        type: object
+        properties:
+          x:
+            type: number
+          y:
+            type: number
+      bottomRight:
+        type: object
+        properties:
+          x:
+            type: number
+          y:
+            type: number
+  RequestBody:
+    type: object
+    required:
+      - image
+      - areas
+      - abreviatura
+    properties:
+      image:
+        type: string
+        format: base64
+        description: Imagen del acta codificada en base64
+      areas:
+        type: array
+        items:
+          $ref: "#/definitions/Area"
+      abreviatura:
+        type: string
+        description: Abreviatura del tipo de acta
+        example: "AEE"
+
+  SuccessResponse:
+    type: array
+    items:
+      $ref: "#/definitions/Area"
+  BadRequestResponse:
+    type: object
+    properties:
+      message:
+        type: string
+      errors:
+        type: array
+        items:
+          type: object
+responses:
+  200:
+    description: Relative coordinates computed
+    schema:
+      $ref: "#/definitions/SuccessResponse"
+  400:
+    description: Invalid request
+    schema:
+      $ref: "#/definitions/BadRequestResponse"

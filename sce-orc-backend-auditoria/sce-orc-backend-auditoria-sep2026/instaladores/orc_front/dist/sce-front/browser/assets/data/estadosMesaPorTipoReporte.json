@@ -1,0 +1,152 @@
+[
+    {
+    "idTipoReporte": 1,
+    "estados": [
+            {
+      "id": null,
+      "codigo": "A",
+      "nombre": "SIN INFORMACIÓN"
+            },
+            {
+      "id": null,
+      "codigo": "B",
+      "nombre": "INSTALADA"
+            },
+            {
+      "id": null,
+      "codigo": "C",
+      "nombre": "NO INSTALADA"
+            }
+        ]
+    },
+    {
+    "idTipoReporte": 2,
+    "estados": [
+            {
+      "id": 0,
+      "codigo": null,
+      "nombre": "OTRAS"
+            },
+            {
+      "id": 1,
+      "codigo": null,
+      "nombre": "CONTABILIZA CON VOTOS IMPUGNADOS"
+            },
+            {
+      "id": 2,
+      "codigo": null,
+      "nombre": "SOLICITUD DE NULIDAD"
+            },
+            {
+      "id": 3,
+      "codigo": null,
+      "nombre": "ERROR MATERIAL"
+            },
+            {
+      "id": 4,
+      "codigo": null,
+      "nombre": "ILEGIBILIDAD"
+            },
+            {
+      "id": 5,
+      "codigo": null,
+      "nombre": "SIN DATOS"
+            },
+            {
+      "id": 6,
+      "codigo": null,
+      "nombre": "OTRAS OBSERVACIONES"
+            },
+            {
+      "id": 7,
+      "codigo": null,
+      "nombre": "PROCESADA NORMAL / CON RESOLUCION / EXTRAVIADA POR RESOLUCION"
+            },
+            {
+      "id": 8,
+      "codigo": null,
+      "nombre": "MESAS NO INSTALADAS"
+            },
+            {
+      "id": 9,
+      "codigo": null,
+      "nombre": "EN PROCESO DE DIGITACION"
+            },
+            {
+      "id": 10,
+      "codigo": null,
+      "nombre": "PENDIENTE"
+            },
+            {
+      "id": 11,
+      "codigo": null,
+      "nombre": "EXTRAVIADA"
+            },
+            {
+      "id": 12,
+      "codigo": null,
+      "nombre": "CONTABILIZADAS ANULADAS"
+            },
+            {
+      "id": 13,
+      "codigo": null,
+      "nombre": "SINIESTRADA"
+            }
+        ]
+    }, {
+      "idTipoReporte": 3,
+      "estados": [
+            {
+                  "id": null,
+                  "codigo": "A",
+                  "nombre": "PENDIENTES (No Digitada)"
+            },
+            {
+                  "id": null,
+                  "codigo": "B",
+                  "nombre": "CON ERRORES DE DIGITACIÓN"
+            },
+            {
+                  "id": null,
+                  "codigo": "C",
+                  "nombre": "NO INSTALADA"
+            },
+            {
+                  "id": null,
+                  "codigo": "D",
+                  "nombre": "A ESPERA DE DIGITACIÓN"
+            },
+            {
+                  "id": null,
+                  "codigo": "E",
+                  "nombre": "DIGITADA"
+            },
+            {
+                  "id": null,
+                  "codigo": "F",
+                  "nombre": "PROCESADA"
+            },
+            {
+                  "id": null,
+                  "codigo": "G",
+                  "nombre": "EXTRAVIADA"
+            },
+            {
+                  "id": null,
+                  "codigo": "H",
+                  "nombre": "SINIESTRADA"
+            },
+            {
+                  "id": null,
+                  "codigo": "I",
+                  "nombre": "ANULADA POR RESOLUCIÓN (EXTRAVIADA)"
+            },
+            {
+                  "id": null,
+                  "codigo": "J",
+                  "nombre": "ANULADA POR RESOLUCIÓN (SINIESTRADA)"
+            }
+
+      ]
+    }
+]

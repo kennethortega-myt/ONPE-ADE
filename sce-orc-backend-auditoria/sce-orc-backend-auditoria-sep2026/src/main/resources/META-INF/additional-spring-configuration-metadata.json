@@ -1,0 +1,47 @@
+{"properties": [
+  {
+    "name": "file.upload-dir",
+    "type": "java.lang.String",
+    "description": "A description for 'file.upload-dir'"
+  },
+  {
+    "name": "file.installer.name",
+    "type": "java.lang.String",
+    "description": "A description for 'file.installer.name'"
+  },
+  {
+    "name": "file.installer.label",
+    "type": "java.lang.String",
+    "description": "A description for 'file.installer.label'"
+  },
+  {
+    "name": "file.installer.dir",
+    "type": "java.lang.String",
+    "description": "A description for 'file.installer.dir'"
+  },
+  {
+    "name": "kafka.topic.request",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.topic.request'"
+  },
+  {
+    "name": "kafka.topic.response",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.topic.response'"
+  },
+  {
+    "name": "sasa.url",
+    "type": "java.lang.String",
+    "description": "Url de sasa"
+  },
+  {
+    "name": "sasa.codigo",
+    "type": "java.lang.String",
+    "description": "Código del sistema"
+  },
+  {
+    "name": "sasa.timeout-miliseconds",
+    "type": "java.lang.Long",
+    "description": "Timeout en milisigundos para los request a SASA que usen la clase WebClient"
+  }
+]}

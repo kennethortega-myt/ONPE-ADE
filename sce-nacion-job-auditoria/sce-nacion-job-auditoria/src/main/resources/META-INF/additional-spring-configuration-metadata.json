@@ -1,0 +1,142 @@
+{"properties": [
+  {
+    "name": "sce.pr.url",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.pr.url'"
+  },
+  {
+    "name": "spring.enable.scheduling",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.enable.scheduling'"
+  },
+  {
+    "name": "cron.expression",
+    "type": "java.lang.String",
+    "description": "A description for 'cron.expression'"
+  },
+  {
+    "name": "sce.nacion.url",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.nacion.url'"
+  },
+  {
+    "name": "file.imagenes.sce-job",
+    "type": "java.lang.String",
+    "description": "A description for 'file.imagenes.sce-job'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.host",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.host'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.username",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.username'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.send-queue",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.send-queue'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.reply-queue",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.reply-queue'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.port",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.port'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.password",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.password'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.metodo",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.metodo'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.method.mq",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.method.mq'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.reply-queue-file",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.reply-queue-file'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.send-queue-file",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.send-queue-file'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.reply.timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.reply.timeout'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.reply.data.timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.reply.data.timeout'"
+  },
+  {
+    "name": "app.sce-batch-pr.transmision.reply.file.timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.transmision.reply.file.timeout'"
+  },
+  {
+    "name": "app.sftp.ipserver",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sftp.ipserver'"
+  },
+  {
+    "name": "app.sftp.username",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sftp.username'"
+  },
+  {
+    "name": "sce.sftp.password",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.password'"
+  },
+  {
+    "name": "sce.sftp.dir-nacion",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.dir-nacion'"
+  },
+  {
+    "name": "sce.sftp.home",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.home'"
+  },
+  {
+    "name": "sce.sftp.port",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.port'"
+  },
+  {
+    "name": "app.sce-batch-pr.default_schema",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.default_schema'"
+  },
+  {
+    "name": "app.sce-batch-pr.multi-proceso",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.multi-proceso'"
+  },
+  {
+    "name": "app.sce-batch-pr.habilitar-job",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.habilitar-job'"
+  },
+  {
+    "name": "app.sce-batch-pr.enviar-firmados",
+    "type": "java.lang.String",
+    "description": "A description for 'app.sce-batch-pr.enviar-firmados'"
+  }
+]}

@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "sce.pr.url",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.pr.url'"
+  },
+  {
+    "name": "sce.pr.jobtransmision",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.pr.jobtransmision'"
+  },
+  {
+    "name": "sce.sftp.ipserver",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.ipserver'"
+  },
+  {
+    "name": "sce.sftp.username",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.username'"
+  },
+  {
+    "name": "sce.sftp.home",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.home'"
+  },
+  {
+    "name": "sce.sftp.port",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.port'"
+  },
+  {
+    "name": "sce.sftp.password",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.password'"
+  },
+  {
+    "name": "sce.sftp.dir",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.dir'"
+  },
+  {
+    "name": "sce.sftp.dir-nacion",
+    "type": "java.lang.String",
+    "description": "A description for 'sce.sftp.dir-nacion'"
+  },
+  {
+    "name": "security.rsa.public-key",
+    "type": "java.lang.String",
+    "description": "Public Key RSA"
+  },
+  {
+    "name": "security.rsa.private-key",
+    "type": "java.lang.String",
+    "description": "Private key RSA"
+  }
+]}

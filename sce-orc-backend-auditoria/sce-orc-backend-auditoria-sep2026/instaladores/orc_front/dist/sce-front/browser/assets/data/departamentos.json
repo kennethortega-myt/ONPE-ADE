@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "01",
+    "DESCRIPCION": "AMAZONAS"
+  },
+  {
+    "ID": "02",
+    "DESCRIPCION": "ANCASH"
+  },
+  {
+    "ID": "03",
+    "DESCRIPCION": "APURIMAC"
+  },
+  {
+    "ID": "04",
+    "DESCRIPCION": "AREQUIPA"
+  },
+  {
+    "ID": "05",
+    "DESCRIPCION": "AYACUCHO"
+  },
+  {
+    "ID": "06",
+    "DESCRIPCION": "CAJAMARCA"
+  },
+  {
+    "ID": "07",
+    "DESCRIPCION": "CALLAO"
+  },
+  {
+    "ID": "08",
+    "DESCRIPCION": "CUSCO"
+  },
+  {
+    "ID": "09",
+    "DESCRIPCION": "HUANCAVELICA"
+  },
+  {
+    "ID": "10",
+    "DESCRIPCION": "HUANUCO"
+  },
+  {
+    "ID": "11",
+    "DESCRIPCION": "ICA"
+  },
+  {
+    "ID": "12",
+    "DESCRIPCION": "JUNIN"
+  },
+  {
+    "ID": "13",
+    "DESCRIPCION": "LA LIBERTAD"
+  },
+  {
+    "ID": "14",
+    "DESCRIPCION": "LAMBAYEQUE"
+  },
+  {
+    "ID": "15",
+    "DESCRIPCION": "LIMA"
+  },
+  {
+    "ID": "16",
+    "DESCRIPCION": "LORETO"
+  },
+  {
+    "ID": "17",
+    "DESCRIPCION": "MADRE DE DIOS"
+  },
+  {
+    "ID": "18",
+    "DESCRIPCION": "MOQUEGUA"
+  },
+  {
+    "ID": "19",
+    "DESCRIPCION": "PASCO"
+  },
+  {
+    "ID": "20",
+    "DESCRIPCION": "PIURA"
+  },
+  {
+    "ID": "21",
+    "DESCRIPCION": "PUNO"
+  },
+  {
+    "ID": "22",
+    "DESCRIPCION": "SAN MARTIN"
+  },
+  {
+    "ID": "23",
+    "DESCRIPCION": "TACNA"
+  },
+  {
+    "ID": "24",
+    "DESCRIPCION": "TUMBES"
+  },
+  {
+    "ID": "25",
+    "DESCRIPCION": "UCAYALI"
+  }
+]

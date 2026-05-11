@@ -1,0 +1,9 @@
+package pe.gob.onpe.scebackend.model.service;
+
+import pe.gob.onpe.scebackend.model.dto.FiltroOrganizacionesPoliticasDto;
+
+public interface OrganizacionPoliticaService {
+
+	byte[] reporteOrganizacionesPoliticas(FiltroOrganizacionesPoliticasDto filtro);
+	
+}

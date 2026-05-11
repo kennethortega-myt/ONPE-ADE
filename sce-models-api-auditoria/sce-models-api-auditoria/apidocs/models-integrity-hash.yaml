@@ -1,0 +1,25 @@
+Obtiene el hash SHA256 de los pesos de los modelos
+---
+tags:
+  - Model Integrity
+
+responses:
+  200:
+    description: Hash SHA256 generado correctamente
+    schema:
+      type: object
+      properties:
+        sha256:
+          type: string
+          example: "d2c7e3b4e9d8c1c0f9b1a5d0b2a8f0c1e9d8c7b6a5f4e3d2c1b0a9f8e7d6"
+
+  500:
+    description: Error generando el hash de integridad
+    schema:
+      type: object
+      properties:
+        message:
+          type: string
+          example: "Error generando hash de integridad de modelos"
+        error:
+          type: string

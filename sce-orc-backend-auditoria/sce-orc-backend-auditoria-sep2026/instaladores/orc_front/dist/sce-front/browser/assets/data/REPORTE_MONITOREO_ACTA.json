@@ -1,0 +1,112 @@
+{
+    "actaVotos": [
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "codigoAgrupol" : "00001",
+            "posicion" : 1,
+            "agrupacionPolitica" : "MOVIMIENTO REGIONAL",
+            "votos" : 120
+        },
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "codigoAgrupol" : "80",
+            "posicion" : 2,
+            "agrupacionPolitica" : "VOTOS BLANCOS",
+            "votos" : 20
+        },
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "codigoAgrupol" : "81",
+            "posicion" : 3,
+            "agrupacionPolitica" : "VOTOS NULOS",
+            "votos" : 100
+        },
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "codigoAgrupol" : "82",
+            "posicion" : 4,
+            "agrupacionPolitica" : "VOTOS IMPUGNADOS",
+            "votos" : 0
+        }
+    ],
+    "detalleActa" : {
+        "grupoEscaneo" : "8888",
+        "numeroMesa" : "000001",
+        "estadoMesa" : "A",
+        "usuarioModificacion" : "NCOQCHI",
+        "fechaModificacion" : "2023-09-12",
+        "estadosActa":[
+            {
+                "idEleccion" : "04",
+                "eleccion": "distrital",
+                "estado": "A"
+            }
+        ],
+        "estadosProceso":[
+            {
+                "idEleccion" : "04",
+                "eleccion": "distrital",
+                "estado": "D"
+            }
+        ]
+    },
+    "electoresCiudadanos": [
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "sufragio": 200,
+            "electoresHabiles" : 100,
+            "ausentismo" : 90
+
+        }
+    ],
+    "observaciones" : [
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "codigo" : ".",
+            "descripcion": "2. Acta con Votos Impuganados",
+            "tipo" : "OBSERVACION"  // EM: tipo de observacion en el acta
+        },
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "codigo" : "B",
+            "descripcion": "Total de votos mayor que total de electores habiles",
+            "tipo" : "EM_ACTA"  // EM: error material
+        },
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "codigo" : "C",
+            "descripcion": "Total de votos mayor que total de CVAS",
+            "tipo" : "EM_ACTA"
+        },
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "codigo" : "F",
+            "descripcion": "Votacion de una organizacion mayor que CVAS",
+            "tipo" : "EM_DET_ACTA"  // EM: error material detalle
+        },
+        {
+            "idEleccion" : "04",
+            "eleccion": "distrital",
+            "codigo" : "G",
+            "descripcion": "Votacion de una organizacion mayor que Electores Hbailes",
+            "tipo" : "EM_DET_ACTA"
+        }
+
+    ]
+}
+
+ 
+ 
+ 
+ 
+ 
+ 

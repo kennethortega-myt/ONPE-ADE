@@ -1,0 +1,73 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sce-batch-job
+spec:
+  replicas: 1 #MIN_REPLICAS
+  selector:
+    matchLabels:
+      app: sce-batch-job
+  strategy:
+    type: RollingUpdate 
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: sce-batch-job
+        tier: backend
+        tierType: business
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: node-role
+                    operator: In
+                    values:
+                      - worker   #pruebas-carga
+      imagePullSecrets:
+        - name: harbor-regcred
+      containers:
+        - name: sce-batch-job
+          image: harbor-ws.onpe.gob.pe/sce/sce-nacion-job:dev
+          imagePullPolicy: Always
+          ports:
+            - name: app-port
+              containerPort: 8080
+          resources:
+            requests:
+              memory: "2Gi"
+              cpu: "250m"
+            limits:
+              memory: "6Gi"
+          volumeMounts:
+            - name: data
+              mountPath: "/data"
+          env:
+            - name: JAVA_TOOL_OPTIONS
+              value: "-XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -XX:MaxGCPauseMillis=200"
+            - name: JAVA_OPTS
+              value: "-XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -XX:MaxGCPauseMillis=200"
+          envFrom:
+            - configMapRef:
+                name: sce-batch-cm
+            - secretRef:
+                name: sce-batch-secret
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+            runAsGroup: 1100
+            runAsNonRoot: true
+            runAsUser: 1100
+            seccompProfile:
+              type: RuntimeDefault
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: sce-batch-data-pvc
+  
